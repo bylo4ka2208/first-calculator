@@ -12,8 +12,6 @@ backgroundColor.addEventListener('click', function () {
 
 const div = document.querySelector('.calculator')
 
-colorDiv.appendChild(backgroundColor);
-
 btnResult.addEventListener('click', function() {
     const numA = Number(valueA.value);
     const numB = Number(valueB.value);
