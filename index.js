@@ -11,7 +11,6 @@ backgroundColor.addEventListener('click', function () {
     body.style.background = 'radial-gradient(circle, rgba(180,63,118,1) 0%, rgba(66,155,41,1) 100%)'}) 
 
 const div = document.querySelector('.calculator')
-div.insertAdjacentElement('beforebegin', colorDiv);
 
 colorDiv.appendChild(backgroundColor);
 
